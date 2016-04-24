@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Score : 0"
+        android:textColor="#ff0000"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageView13"
+        android:background="@drawable/coin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="131dp"
+        android:layout_marginEnd="131dp" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:text=" : 0"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginTop="2dp"
+        android:textColor="#ff0000"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bird_menu"
+        android:layout_marginTop="40dp"/>
+
+    <CheckBox
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Select Character"
+        android:id="@+id/checkBox"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/price0"/>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:text="Unlocked"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageView3"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/butterfly_menu"
+                android:layout_marginTop="40dp"/>
+
+            <CheckBox
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:text="Select Character"
+                android:id="@+id/checkBox2"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageView4"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/price1"/>
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:text="Buy it"
+                android:id="@+id/button2"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageView5"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bee_menu"
+                android:layout_marginTop="40dp"/>
+
+            <CheckBox
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:text="Select Character"
+                android:id="@+id/checkBox3"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageView6"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/price2"/>
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:text="Buy it"
+                android:id="@+id/button3"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageView7"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/dragon_menu"
+                android:layout_marginTop="40dp"/>
+
+            <CheckBox
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:text="Select Character"
+                android:id="@+id/checkBox4"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageView8"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/price3"/>
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:text="Buy it"
+                android:id="@+id/button4"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageView9"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/horse_menu"
+                android:layout_marginTop="40dp"/>
+
+            <CheckBox
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:text="Select Character"
+                android:id="@+id/checkBox5"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageView10"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/price4"/>
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:text="Buy it"
+                android:id="@+id/button5"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageView11"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bat_menu"
+                android:layout_marginTop="40dp"/>
+
+            <CheckBox
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:text="Select Character"
+                android:id="@+id/checkBox6"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageView12"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/price5"/>
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:text="Buy it"
+                android:id="@+id/button6"
+                android:layout_gravity="center_horizontal" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

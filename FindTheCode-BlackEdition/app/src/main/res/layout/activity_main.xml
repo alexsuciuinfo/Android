@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rsz_backgr">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:id = "@+id/textviewlevel"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="What are you doing ?"
+        android:textColor="#FFFFFF"
+        android:id = "@+id/textview"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:layout_marginTop="30dp"
+
+      />
+
+    <EditText
+        android:id="@+id/edtext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:text=""
+        android:textSize="17dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer"
+        android:textSize="15dp"/>
+
+</LinearLayout>
+

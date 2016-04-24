@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/email"
+    android:weightSum="9030"
+ 	
+    >
+
+    <ScrollView 
+        android:layout_weight="30"
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"
+      >
+    
+    
+    <LinearLayout    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp"
+     >
+    
+        
+      
+      
+    <TextView
+        android:id="@+id/blevel1"
+   		style="@style/stil"
+   		android:layout_gravity="center"
+        android:layout_weight="30"
+        android:text="Level 1" />
+    
+    
+   
+    <TextView
+        android:id="@+id/blevel2"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 2" />
+    
+    
+    <TextView
+        android:id="@+id/blevel3"
+        style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 3" />
+    
+    
+    <TextView
+        android:id="@+id/blevel4"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 4" />
+    
+    
+    <TextView
+        android:id="@+id/blevel5"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 5" />
+    
+    
+    <TextView
+        android:id="@+id/blevel6"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 6" />
+    
+    
+    <TextView
+        android:id="@+id/blevel7"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 7" />
+    
+    
+    <TextView
+        android:id="@+id/blevel8"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 8" />
+    
+    
+    <TextView
+        android:id="@+id/blevel9"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 9" />
+    
+    
+    <TextView
+        android:id="@+id/blevel10"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 10" />
+    
+    
+    <TextView
+        android:id="@+id/blevel11"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 11" />
+    
+    
+    <TextView
+        android:id="@+id/blevel12"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 12" />
+    
+    
+    <TextView
+        android:id="@+id/blevel13"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 13" />
+    
+    
+    <TextView
+        android:id="@+id/blevel14"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 14" />
+    
+    
+    <TextView
+        android:id="@+id/blevel15"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 15" />
+    
+    
+    <TextView
+        android:id="@+id/blevel16"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 16" />
+    
+    
+    <TextView
+        android:id="@+id/blevel17"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 17" />
+    
+    
+    <TextView
+        android:id="@+id/blevel18"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 18" />
+    
+    
+    <TextView
+        android:id="@+id/blevel19"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 19" />
+    
+    
+    <TextView
+        android:id="@+id/blevel20"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 20" />
+    
+    
+    <TextView
+        android:id="@+id/blevel21"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 21" />
+    
+    
+    <TextView
+        android:id="@+id/blevel22"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 22" />
+    
+    
+    <TextView
+        android:id="@+id/blevel23"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 23" />
+    
+    
+    <TextView
+        android:id="@+id/blevel24"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 24" />
+    
+    
+    <TextView
+        android:id="@+id/blevel25"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 25" />
+    
+    
+    <TextView
+        android:id="@+id/blevel26"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 26" />
+    
+    
+    <TextView
+        android:id="@+id/blevel27"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 27" />
+    
+    
+    <TextView
+        android:id="@+id/blevel28"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 28" />
+    
+    
+    <TextView
+        android:id="@+id/blevel29"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 29" />
+    
+    
+    <TextView
+        android:id="@+id/blevel30"
+    	style="@style/stil"
+        android:layout_weight="30"
+        android:text="Level 30" />
+        
+        
+    </LinearLayout>
+    </ScrollView>
+
+ 
+
+</LinearLayout>

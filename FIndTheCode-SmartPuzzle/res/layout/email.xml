@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:weightSum="100"
+    android:background="@drawable/email"
+    >
+
+    <ScrollView 
+        android:layout_weight="30"
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"
+      >
+    
+    
+    <LinearLayout    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+          >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize = "20dp"
+        android:textColor="#FF0099CC"
+        android:text="Email adress :" />
+
+   <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+       	android:text="alexsuciuinfo@gmail.com"
+       	android:textSize="15dp"
+       	android:id="@+id/etEmail"
+        >
+
+      
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate app (1-10) : "
+        android:textSize = "20dp"
+        android:textColor="#FF0099CC"
+         />
+
+    <EditText
+        android:id="@+id/etIntro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Things you like : "
+        android:textSize = "20dp"
+        android:textColor="#FF0099CC"
+         />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Things you don't like : "
+        android:textSize = "20dp"
+        android:textColor="#FF0099CC"
+         />
+
+    <EditText
+        android:id="@+id/etThings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What can be improved : " 
+        android:textSize = "20dp"
+        android:textColor="#FF0099CC"
+        />
+
+    <EditText
+        android:id="@+id/etAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    
+    
+    </LinearLayout>
+    </ScrollView>
+
+     <LinearLayout    
+    android:layout_weight="40"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+          >
+    
+    <Button
+        android:id="@+id/bSentEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Send Email" />
+    
+     </LinearLayout>
+
+    
+    <LinearLayout   
+    android:layout_weight="30" 
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+          >
+    
+    <AnalogClock
+        android:id="@+id/analogClock1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    
+     </LinearLayout>
+
+
+    
+
+
+</LinearLayout>
